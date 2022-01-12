@@ -1,6 +1,6 @@
 # webscraper cronjob
 
-I installed a cronjob on a digital ocean droplet that runs the script `scraper.py` every 10 minutes as follows:
+I installed a cronjob on a digital ocean droplet that runs the script `scraper.py` every 24 hours as follows:
 ```
 * /10 * * * * cd /root/myproject/webscraper_cronjob && /root/myproject/myprojectenv/bin/python /root/myproject/webscraper_cronjob/scraper.py
 ```
